@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Be Vietnam Pro", sans-serif;
+    color: #111111;
+
+}
+
+body {
+    background-color: #242424;
+    background-image: url(../img/blurry-gradient-haikei\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Box1 {
+    display: grid;
+    padding: 50px;
+    grid-template-columns: auto auto;
+    justify-content: right;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: auto;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container1 p,
+input {
+    margin: 2px;
+    padding: 1px;
+}
+
+.container1 p {
+    font-size: 1.0rem;
+}
+
+.container1 input {
+    width: 25vw;
+    height: 4vh;
+    margin: 6px;
+}
+.container1 h1{
+    padding: 1vw 0px;
+}
+
+.texto2{
+ text-align: center;
+}
+
+.title{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 2.9rem ;
+    color: aliceblue;
+    margin-right: 15vw;
+    margin-top: 10vw;
+}
